@@ -348,6 +348,8 @@ article.icon {
 
 #projects{
     position: relative;
+    height: auto;
+    margin-bottom: 2rem;
 }
 .color-container{
     border-color: rgb(163,163,163);
@@ -377,29 +379,35 @@ article.icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: auto;
 
 }
-.contact-info-upper-container{
+.contact-info-upper-container {
     display: flex;
     justify-content: center;
+    align-items: center; /* Center align vertically */
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
-    background: (250,250,250);
+    border: 0.1rem solid rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
     margin: 2rem auto;
-    padding: 0.5rem;
+    padding: 1rem; /* Increase padding for better spacing */
+    max-width: 80%; /* Limit width for better centering on small screens */
 }
 
-.contact-info-container{
+.contact-info-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem auto; /* Adjusted margin */
 }
-.contact-info-container p{
-    font-size: large;
+
+.contact-info-container p {
+    font-size: medium; /* Adjust font size as needed */
+}
+
+.contact-info-container img {
+    height: 2.5rem; /* Ensure consistent height for icons */
 }
 .contact-icon{
     cursor: pointer;
@@ -410,8 +418,10 @@ article.icon {
 
 /* Footer Section */
 footer{
-    height: 26vh;
-    margin: 0 1rem;
+    height: auto; /* Adjusted */
+    margin-top: 2rem; /* Added */
+    margin-bottom: 2rem; /* Added */
+    padding: 1rem; /* Added */
 }
 
 footer p{
