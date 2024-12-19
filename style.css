@@ -350,8 +350,6 @@ article.icon {
     position: relative;
     height: auto;
     margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
 }
 .color-container{
     border-color: rgb(163,163,163);
