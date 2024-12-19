@@ -350,6 +350,9 @@ article.icon {
     position: relative;
     height: auto;
     margin-bottom: 2rem;
+    max-width: 1200px; /* Constrain the maximum width */
+    margin: 0 auto; /* Center align */
+    padding: 0 1rem; /* Add padding for small screens */
 }
 .color-container{
     border-color: rgb(163,163,163);
@@ -371,6 +374,14 @@ article.icon {
     color:black;
     border-color: rgb(163,163,163);
 
+}
+.experience-details-container {
+    display: flex; /* Adjust layout */
+    flex-wrap: wrap; /* Wrap items on small screens */
+    gap: 1.5rem; /* Add spacing between items */
+    justify-content: center; /* Center items horizontally */
+    max-width: 100%; /* Prevent overflow */
+    overflow: hidden; /* Hide excess content if any */
 }
 
 /* Contct */
