@@ -376,8 +376,10 @@ article.icon {
 
 }
 .experience-details-container {
-    display: flex; /* Adjust layout */
-    flex-wrap: wrap; /* Wrap items on small screens */
+    /*display: flex; /* Adjust layout */
+    /*flex-wrap: wrap; /* Wrap items on small screens */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 1.5rem; /* Add spacing between items */
     justify-content: center; /* Center items horizontally */
     max-width: 100%; /* Prevent overflow */
