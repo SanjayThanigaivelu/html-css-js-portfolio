@@ -1,31 +1,27 @@
+
 @media screen and (max-width:1400px) {
  #profile{
     height: 83vh;
-margin-bottom: Grem;
+margin-bottom: 5rem;
 }
 .about-containers{
     flex-wrap: wrap;
-}
-}
-
-@media screen and (max-width: 768px) {
+    margin-top: 0;
+}}  
+ 
+@media screen and (max-width: 768px){
     .frontend-container,
     .backend-container {
         align-items: center; /* Center items horizontally within the container on small screens */
     }
-    
     .article-container {
         justify-content: center; /* Center articles within the container */
     }
-    
-    .frontend-container {
+     .frontend-container {
         margin-bottom: 2rem; /* Add margin between frontend and backend sections */
-    }
-}
+    }}
 
-
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1200px){
     #desktop-nav{
         display: none;
     }
