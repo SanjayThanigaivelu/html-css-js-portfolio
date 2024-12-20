@@ -57,6 +57,8 @@ text-decoration-color: rgb(181, 181, 181);
 
 .logo{
     font-size: 2rem;
+position: relative;
+left: 10rem;
 }
 .logo:hover{
     cursor: default;
@@ -150,8 +152,9 @@ section{
 #profile{
     display: flex;
 justify-content: center;
-gap: 5rem;
-height: 80vh;
+gap: 2rem;
+height: 76vh;
+margin-top: 20px;
 }
 .section__pic-container{
     display: flex;

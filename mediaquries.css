@@ -3,10 +3,11 @@
  #profile{
     height: 83vh;
 margin-bottom: 0;
+
 }
 .about-containers{
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin-top: 0;
 }}  
  
 @media screen and (max-width: 768px){
